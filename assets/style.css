@@ -1,0 +1,191 @@
+.jumbotron {
+    text-align: center;
+    background-image: url("images/header.jpg");
+    background-repeat: repeat;  
+    background-size: 200px;
+
+}
+
+#your-pic,
+#your-meme {
+    height: 300px;
+    width: 400px;
+    padding: 20px;
+}
+
+
+body {
+    font-family: 'Freckle Face', cursive;
+    background-color: lightslategray;
+}
+
+h1 {
+    text-shadow: 5px 5px white;
+    text-align: center;
+}
+
+p {
+    font-family: 'Nanum Brush Script', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+h4 {
+    text-align: center;
+    
+}
+h5{
+    margin-right:auto;
+    margin-left:auto;
+
+    text-align:center;
+}
+
+#instructions {
+    width: 80%;
+    margin: 0 auto 20px auto;
+}
+
+#captionbox {
+    border: 1px slateblue;
+}
+
+.instructions {
+    text-align: left;
+    padding-left: 40px;
+}
+
+.card-title {
+    margin-right:25%;
+    margin-left:25%;
+
+    text-align: center;
+}
+#submit-input {
+    margin-left: 15%;
+}
+#your-photo {
+    margin-top: 10px;
+}
+
+.card {
+    margin-bottom: 20px;
+}
+.table-responsive {
+    width: auto;
+    overflow-x: auto;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    -ms-overflow-style: -ms-autohiding-scrollbar;
+    padding:0px;
+  }
+
+  .table-responsive2 {
+    width: 100%;
+    overflow-x: auto;
+    
+  }
+
+
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+
+
+footer {
+    background: white;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+
+footer p {
+    padding: 10px;
+    font-size: 20px;
+}
+
+#recentmemes {
+    padding: 10px;
+    margin: 0 auto 20px auto;
+    text-align: center;
+    width: 90%;
+}
+
+#recentmeme1,
+#recentmeme2,
+#recentmeme3,
+#recentmeme4,
+#recentmeme5 {
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+}
+
+#gifcontainer {
+    text-align: center;
+}
+.container {
+    margin-right: auto;
+    margin-left: auto;
+}
+#toast {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  #toast.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  #snackbar {
+    visibility: hidden;
+    min-width: 250px;
+    margin-left: -125px;
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    border-radius: 2px;
+    padding: 16px;
+    position: fixed;
+    z-index: 1;
+    left: 50%;
+    bottom: 30px;
+    font-size: 17px;
+  }
+  #snackbar.show {
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+    animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  }
+  @-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;} 
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;} 
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
